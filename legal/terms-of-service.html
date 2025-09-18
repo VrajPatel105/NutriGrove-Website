@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - NutriGrove</title>
+    <meta name="description" content="NutriGrove Terms of Service - User agreements, acceptable use policies, and service terms.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/critical.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--color-gray-50) 0%, var(--color-white) 100%);
+            padding-top: 120px;
+        }
+
+        .legal-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--space-6) var(--space-20);
+        }
+
+        .legal-header {
+            text-align: center;
+            margin-bottom: var(--space-16);
+        }
+
+        .legal-title {
+            font-size: var(--text-5xl);
+            font-weight: var(--font-extrabold);
+            color: var(--color-gray-900);
+            margin-bottom: var(--space-4);
+        }
+
+        .legal-subtitle {
+            font-size: var(--text-xl);
+            color: var(--color-gray-600);
+            margin-bottom: var(--space-6);
+        }
+
+        .last-updated {
+            background: var(--color-primary);
+            color: var(--color-white);
+            padding: var(--space-2) var(--space-4);
+            border-radius: var(--radius-full);
+            font-size: var(--text-sm);
+            font-weight: var(--font-semibold);
+            display: inline-block;
+        }
+
+        .legal-content {
+            background: var(--color-white);
+            border-radius: var(--radius-2xl);
+            padding: var(--space-10);
+            box-shadow: var(--shadow-xl);
+            line-height: 1.8;
+        }
+
+        .legal-content h2 {
+            color: var(--color-primary);
+            font-size: var(--text-3xl);
+            margin-top: var(--space-12);
+            margin-bottom: var(--space-6);
+            padding-bottom: var(--space-3);
+            border-bottom: 2px solid var(--color-gray-100);
+        }
+
+        .legal-content h3 {
+            color: var(--color-gray-800);
+            font-size: var(--text-xl);
+            margin-top: var(--space-8);
+            margin-bottom: var(--space-4);
+        }
+
+        .legal-content p {
+            color: var(--color-gray-700);
+            margin-bottom: var(--space-6);
+        }
+
+        .legal-content ul, .legal-content ol {
+            margin-bottom: var(--space-6);
+            padding-left: var(--space-6);
+        }
+
+        .legal-content li {
+            color: var(--color-gray-700);
+            margin-bottom: var(--space-2);
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+            color: var(--color-white);
+            padding: var(--space-6);
+            border-radius: var(--radius-xl);
+            margin: var(--space-8) 0;
+        }
+
+        .highlight-box h3 {
+            color: var(--color-white);
+            margin-top: 0;
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, #FEF3C7 0%, #FCD34D 100%);
+            color: var(--color-gray-800);
+            padding: var(--space-6);
+            border-radius: var(--radius-xl);
+            margin: var(--space-8) 0;
+            border-left: 4px solid #F59E0B;
+        }
+
+        .warning-box h3 {
+            color: var(--color-gray-900);
+            margin-top: 0;
+        }
+
+        .contact-info {
+            background: var(--color-gray-50);
+            padding: var(--space-6);
+            border-radius: var(--radius-lg);
+            border-left: 4px solid var(--color-secondary);
+        }
+
+        .toc {
+            background: var(--color-gray-50);
+            padding: var(--space-6);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--space-10);
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            color: var(--color-gray-900);
+        }
+
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .toc li {
+            margin-bottom: var(--space-2);
+        }
+
+        .toc a {
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: var(--font-medium);
+            transition: color var(--transition-fast);
+        }
+
+        .toc a:hover {
+            color: var(--color-primary-dark);
+        }
+
+        @media (max-width: 768px) {
+            .legal-page {
+                padding-top: 100px;
+            }
+
+            .legal-container {
+                padding: 0 var(--space-4) var(--space-16);
+            }
+
+            .legal-title {
+                font-size: var(--text-3xl);
+            }
+
+            .legal-content {
+                padding: var(--space-6);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="../assets/images/logo.svg" alt="NutriGrove Logo" class="nav-logo">
+                <span class="brand-text">NutriGrove</span>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="../index.html#features" class="nav-link">Features</a>
+                <a href="../index.html#how-it-works" class="nav-link">How It Works</a>
+                <a href="../index.html#team" class="nav-link">Team</a>
+                <a href="../index.html#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon sun-icon">☀️</span>
+                    <span class="theme-icon moon-icon">🌙</span>
+                </button>
+                <button class="cta-button nav-cta">Download App</button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="legal-page">
+        <div class="legal-container">
+            <div class="legal-header">
+                <h1 class="legal-title">Terms of Service</h1>
+                <p class="legal-subtitle">
+                    Please read these terms carefully before using NutriGrove. By using our service, you agree to these terms.
+                </p>
+                <span class="last-updated">Last Updated: December 15, 2024</span>
+            </div>
+
+            <div class="legal-content">
+                <div class="toc">
+                    <h3>Table of Contents</h3>
+                    <ul>
+                        <li><a href="#acceptance">1. Acceptance of Terms</a></li>
+                        <li><a href="#description">2. Service Description</a></li>
+                        <li><a href="#eligibility">3. Eligibility</a></li>
+                        <li><a href="#account">4. Account Registration</a></li>
+                        <li><a href="#acceptable-use">5. Acceptable Use</a></li>
+                        <li><a href="#content">6. User Content</a></li>
+                        <li><a href="#intellectual-property">7. Intellectual Property</a></li>
+                        <li><a href="#privacy">8. Privacy</a></li>
+                        <li><a href="#health-disclaimer">9. Health Disclaimer</a></li>
+                        <li><a href="#payments">10. Payments and Subscriptions</a></li>
+                        <li><a href="#termination">11. Termination</a></li>
+                        <li><a href="#disclaimers">12. Disclaimers</a></li>
+                        <li><a href="#limitation-liability">13. Limitation of Liability</a></li>
+                        <li><a href="#indemnification">14. Indemnification</a></li>
+                        <li><a href="#governing-law">15. Governing Law</a></li>
+                        <li><a href="#changes">16. Changes to Terms</a></li>
+                        <li><a href="#contact">17. Contact Information</a></li>
+                    </ul>
+                </div>
+
+                <section id="acceptance">
+                    <h2>1. Acceptance of Terms</h2>
+                    <p>
+                        These Terms of Service ("Terms") constitute a legally binding agreement between you ("User," "you," or "your")
+                        and NutriGrove Inc. ("NutriGrove," "we," "us," or "our") regarding your use of the NutriGrove mobile application,
+                        website, and related services (collectively, the "Service").
+                    </p>
+
+                    <p>
+                        By downloading, installing, accessing, or using our Service, you acknowledge that you have read,
+                        understood, and agree to be bound by these Terms. If you do not agree to these Terms, you may not
+                        access or use our Service.
+                    </p>
+
+                    <div class="highlight-box">
+                        <h3>📋 Important Notice</h3>
+                        <p>
+                            These Terms include important provisions regarding dispute resolution, including a mandatory
+                            arbitration clause and class action waiver that affects your legal rights.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="description">
+                    <h2>2. Service Description</h2>
+
+                    <p>
+                        NutriGrove is a nutrition tracking platform specifically designed for college students, with
+                        specialized integration for UMass Amherst dining services. Our Service includes:
+                    </p>
+
+                    <h3>2.1 Core Features</h3>
+                    <ul>
+                        <li>Personalized nutrition tracking and meal logging</li>
+                        <li>Real-time campus dining hall integration</li>
+                        <li>AI-powered meal recommendations and insights</li>
+                        <li>Social features and community engagement</li>
+                        <li>Health goals and progress tracking</li>
+                        <li>Educational content and nutrition resources</li>
+                    </ul>
+
+                    <h3>2.2 Campus Integration</h3>
+                    <ul>
+                        <li>UMass dining hall menus and availability</li>
+                        <li>Real-time wait times and crowd levels</li>
+                        <li>Meal plan integration and tracking</li>
+                        <li>Campus event and dining schedule updates</li>
+                    </ul>
+
+                    <h3>2.3 Service Modifications</h3>
+                    <p>
+                        We reserve the right to modify, suspend, or discontinue any aspect of our Service at any time,
+                        with or without notice. We are not liable for any such modifications, suspensions, or
+                        discontinuations.
+                    </p>
+                </section>
+
+                <section id="eligibility">
+                    <h2>3. Eligibility</h2>
+
+                    <h3>3.1 Age Requirements</h3>
+                    <ul>
+                        <li>You must be at least 13 years old to use our Service</li>
+                        <li>Users under 18 may require parental consent</li>
+                        <li>College students receive full access to all features</li>
+                    </ul>
+
+                    <h3>3.2 Geographic Restrictions</h3>
+                    <p>
+                        Our Service is primarily designed for users in the United States, with specific features
+                        available only to UMass Amherst students and affiliates.
+                    </p>
+
+                    <h3>3.3 Account Limitations</h3>
+                    <p>
+                        You may only create one account per person. Creating multiple accounts or sharing accounts
+                        is prohibited and may result in termination of service.
+                    </p>
+                </section>
+
+                <section id="account">
+                    <h2>4. Account Registration</h2>
+
+                    <h3>4.1 Account Creation</h3>
+                    <p>
+                        To access certain features, you must create an account by providing accurate, current, and
+                        complete information. You are responsible for maintaining the confidentiality of your account
+                        credentials.
+                    </p>
+
+                    <h3>4.2 Account Security</h3>
+                    <ul>
+                        <li>Choose a strong, unique password</li>
+                        <li>Enable two-factor authentication when available</li>
+                        <li>Notify us immediately of any unauthorized access</li>
+                        <li>Log out of shared or public devices</li>
+                    </ul>
+
+                    <h3>4.3 Account Information</h3>
+                    <p>
+                        You agree to provide accurate information and keep your account information updated.
+                        False or misleading information may result in account suspension or termination.
+                    </p>
+
+                    <h3>4.4 UMass Integration</h3>
+                    <p>
+                        For full campus integration features, you may need to verify your UMass affiliation
+                        through official university systems or credentials.
+                    </p>
+                </section>
+
+                <section id="acceptable-use">
+                    <h2>5. Acceptable Use</h2>
+
+                    <h3>5.1 Permitted Uses</h3>
+                    <p>You may use our Service for:</p>
+                    <ul>
+                        <li>Personal nutrition tracking and health management</li>
+                        <li>Accessing campus dining information</li>
+                        <li>Participating in community features and discussions</li>
+                        <li>Educational purposes related to nutrition and health</li>
+                    </ul>
+
+                    <h3>5.2 Prohibited Activities</h3>
+                    <p>You agree not to:</p>
+                    <ul>
+                        <li>Use the Service for any illegal or unauthorized purpose</li>
+                        <li>Violate any applicable laws or regulations</li>
+                        <li>Harass, abuse, or harm other users</li>
+                        <li>Share false or misleading health information</li>
+                        <li>Attempt to gain unauthorized access to our systems</li>
+                        <li>Use automated tools to access or scrape our Service</li>
+                        <li>Distribute malware, viruses, or harmful code</li>
+                        <li>Impersonate others or create fake accounts</li>
+                        <li>Commercial use without explicit permission</li>
+                        <li>Reverse engineer or attempt to extract our source code</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        <h3>⚠️ Community Guidelines</h3>
+                        <p>
+                            Our community features are designed to support positive health behaviors. Content that
+                            promotes eating disorders, extreme dieting, or unhealthy behaviors is strictly prohibited.
+                        </p>
+                    </div>
+
+                    <h3>5.3 Enforcement</h3>
+                    <p>
+                        We reserve the right to investigate and take appropriate action against users who violate
+                        these terms, including warning, suspension, or termination of accounts.
+                    </p>
+                </section>
+
+                <section id="content">
+                    <h2>6. User Content</h2>
+
+                    <h3>6.1 Your Content</h3>
+                    <p>
+                        You retain ownership of content you create or upload to our Service ("User Content"),
+                        including meal logs, photos, reviews, and social posts.
+                    </p>
+
+                    <h3>6.2 License to Use</h3>
+                    <p>
+                        By submitting User Content, you grant us a worldwide, non-exclusive, royalty-free license to:
+                    </p>
+                    <ul>
+                        <li>Display, store, and transmit your content within the Service</li>
+                        <li>Create aggregated, anonymized data for service improvement</li>
+                        <li>Use content for customer support and troubleshooting</li>
+                        <li>Comply with legal obligations and court orders</li>
+                    </ul>
+
+                    <h3>6.3 Content Standards</h3>
+                    <p>User Content must:</p>
+                    <ul>
+                        <li>Be accurate and truthful</li>
+                        <li>Comply with all applicable laws</li>
+                        <li>Respect others' rights and privacy</li>
+                        <li>Be appropriate for a college-age audience</li>
+                        <li>Not contain harmful or offensive material</li>
+                    </ul>
+
+                    <h3>6.4 Content Moderation</h3>
+                    <p>
+                        We reserve the right to review, modify, or remove User Content that violates these Terms
+                        or our Community Guidelines, but we are not obligated to monitor all content.
+                    </p>
+
+                    <h3>6.5 Backup and Loss</h3>
+                    <p>
+                        While we implement backup systems, you are responsible for maintaining copies of important
+                        User Content. We are not liable for any loss of User Content.
+                    </p>
+                </section>
+
+                <section id="intellectual-property">
+                    <h2>7. Intellectual Property</h2>
+
+                    <h3>7.1 Our Rights</h3>
+                    <p>
+                        The Service, including its design, functionality, text, graphics, logos, and software,
+                        is owned by NutriGrove and protected by intellectual property laws.
+                    </p>
+
+                    <h3>7.2 Trademarks</h3>
+                    <p>
+                        "NutriGrove" and related logos are trademarks of NutriGrove Inc. You may not use our
+                        trademarks without written permission.
+                    </p>
+
+                    <h3>7.3 Third-Party Rights</h3>
+                    <p>
+                        Our Service may include third-party content, software, or services. Such content is
+                        owned by their respective owners and subject to separate license terms.
+                    </p>
+
+                    <h3>7.4 DMCA Compliance</h3>
+                    <p>
+                        We respect intellectual property rights and respond to valid DMCA takedown notices.
+                        To report copyright infringement, contact us at legal@nutrigrove.com.
+                    </p>
+
+                    <h3>7.5 User Submissions</h3>
+                    <p>
+                        If you submit feedback, suggestions, or ideas about our Service, we may use them without
+                        compensation or attribution, unless prohibited by law.
+                    </p>
+                </section>
+
+                <section id="privacy">
+                    <h2>8. Privacy</h2>
+
+                    <p>
+                        Your privacy is important to us. Our collection, use, and protection of your information
+                        is governed by our <a href="privacy-policy.html">Privacy Policy</a>, which is incorporated
+                        into these Terms by reference.
+                    </p>
+
+                    <h3>8.1 Data Collection</h3>
+                    <p>
+                        By using our Service, you consent to the collection and use of your information as
+                        described in our Privacy Policy.
+                    </p>
+
+                    <h3>8.2 Health Information</h3>
+                    <p>
+                        We handle health-related information in accordance with HIPAA and other applicable
+                        privacy laws and regulations.
+                    </p>
+
+                    <h3>8.3 Third-Party Integration</h3>
+                    <p>
+                        Integration with UMass systems and third-party health platforms is subject to their
+                        respective privacy policies and terms of service.
+                    </p>
+                </section>
+
+                <section id="health-disclaimer">
+                    <h2>9. Health Disclaimer</h2>
+
+                    <div class="warning-box">
+                        <h3>⚠️ Important Health Notice</h3>
+                        <p>
+                            NutriGrove is designed for informational and educational purposes only. It is not
+                            intended to replace professional medical advice, diagnosis, or treatment.
+                        </p>
+                    </div>
+
+                    <h3>9.1 Not Medical Advice</h3>
+                    <p>
+                        Our Service provides general nutrition information and tracking tools. It does not
+                        constitute medical advice, diagnosis, or treatment recommendations.
+                    </p>
+
+                    <h3>9.2 Consult Healthcare Providers</h3>
+                    <p>
+                        Always consult with qualified healthcare professionals before making changes to your
+                        diet, exercise routine, or health management based on information from our Service.
+                    </p>
+
+                    <h3>9.3 Individual Responsibility</h3>
+                    <p>
+                        You are solely responsible for your health decisions and any consequences of using
+                        our Service. We disclaim all liability for health-related outcomes.
+                    </p>
+
+                    <h3>9.4 Emergency Situations</h3>
+                    <p>
+                        In case of medical emergencies, contact emergency services immediately. Do not rely
+                        on our Service for emergency medical assistance.
+                    </p>
+
+                    <h3>9.5 Eating Disorders</h3>
+                    <p>
+                        If you have a history of eating disorders or unhealthy relationships with food,
+                        consult healthcare professionals before using nutrition tracking applications.
+                    </p>
+                </section>
+
+                <section id="payments">
+                    <h2>10. Payments and Subscriptions</h2>
+
+                    <h3>10.1 Free and Premium Features</h3>
+                    <p>
+                        NutriGrove offers both free and premium features. Premium features require a paid
+                        subscription and are subject to additional terms.
+                    </p>
+
+                    <h3>10.2 Pricing</h3>
+                    <p>
+                        Current pricing for premium features is available in the app and on our website.
+                        Prices may change with notice as permitted by law.
+                    </p>
+
+                    <h3>10.3 Billing and Renewals</h3>
+                    <ul>
+                        <li>Subscriptions automatically renew unless canceled</li>
+                        <li>Billing occurs through your app store account</li>
+                        <li>Refunds are subject to app store policies</li>
+                        <li>UMass students may receive educational discounts</li>
+                    </ul>
+
+                    <h3>10.4 Cancellation</h3>
+                    <p>
+                        You may cancel your subscription at any time through your app store account settings.
+                        Cancellation takes effect at the end of your current billing period.
+                    </p>
+
+                    <h3>10.5 Student Verification</h3>
+                    <p>
+                        Educational pricing requires valid student verification through SheerID or similar
+                        verification services.
+                    </p>
+                </section>
+
+                <section id="termination">
+                    <h2>11. Termination</h2>
+
+                    <h3>11.1 Termination by You</h3>
+                    <p>
+                        You may terminate your account at any time by following the account deletion process
+                        in the app settings or contacting customer support.
+                    </p>
+
+                    <h3>11.2 Termination by Us</h3>
+                    <p>We may terminate or suspend your account if:</p>
+                    <ul>
+                        <li>You violate these Terms or our policies</li>
+                        <li>You engage in prohibited activities</li>
+                        <li>Your account remains inactive for extended periods</li>
+                        <li>Required by law or court order</li>
+                        <li>We discontinue the Service</li>
+                    </ul>
+
+                    <h3>11.3 Effect of Termination</h3>
+                    <p>Upon termination:</p>
+                    <ul>
+                        <li>Your access to the Service will cease immediately</li>
+                        <li>Your data may be deleted according to our data retention policy</li>
+                        <li>Outstanding payments remain due</li>
+                        <li>Provisions that should survive termination will continue to apply</li>
+                    </ul>
+
+                    <h3>11.4 Data Export</h3>
+                    <p>
+                        Before termination, you may request an export of your personal data in accordance
+                        with our Privacy Policy and applicable laws.
+                    </p>
+                </section>
+
+                <section id="disclaimers">
+                    <h2>12. Disclaimers</h2>
+
+                    <h3>12.1 "As Is" Basis</h3>
+                    <p>
+                        THE SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES
+                        OF ANY KIND, WHETHER EXPRESS OR IMPLIED.
+                    </p>
+
+                    <h3>12.2 No Warranties</h3>
+                    <p>We disclaim all warranties, including:</p>
+                    <ul>
+                        <li>Merchantability and fitness for a particular purpose</li>
+                        <li>Non-infringement of third-party rights</li>
+                        <li>Accuracy, completeness, or reliability of information</li>
+                        <li>Uninterrupted or error-free operation</li>
+                        <li>Security or virus-free operation</li>
+                    </ul>
+
+                    <h3>12.3 Third-Party Services</h3>
+                    <p>
+                        We are not responsible for the availability, accuracy, or reliability of third-party
+                        services integrated with our platform, including UMass dining systems.
+                    </p>
+
+                    <h3>12.4 User Responsibility</h3>
+                    <p>
+                        You acknowledge that your use of the Service is at your own risk and that you are
+                        solely responsible for any damage to your device or loss of data.
+                    </p>
+                </section>
+
+                <section id="limitation-liability">
+                    <h2>13. Limitation of Liability</h2>
+
+                    <h3>13.1 Damages Limitation</h3>
+                    <p>
+                        TO THE MAXIMUM EXTENT PERMITTED BY LAW, NUTRIGROVE SHALL NOT BE LIABLE FOR ANY
+                        INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
+                    </p>
+
+                    <h3>13.2 Maximum Liability</h3>
+                    <p>
+                        Our total liability for any claims arising from your use of the Service shall not
+                        exceed the amount you paid us in the twelve months preceding the claim.
+                    </p>
+
+                    <h3>13.3 Health-Related Limitations</h3>
+                    <p>
+                        We are not liable for any health outcomes, medical decisions, or consequences
+                        resulting from your use of our nutrition tracking and recommendation features.
+                    </p>
+
+                    <h3>13.4 Force Majeure</h3>
+                    <p>
+                        We are not liable for delays or failures due to circumstances beyond our reasonable
+                        control, including natural disasters, government actions, or third-party service
+                        disruptions.
+                    </p>
+                </section>
+
+                <section id="indemnification">
+                    <h2>14. Indemnification</h2>
+
+                    <p>
+                        You agree to indemnify, defend, and hold harmless NutriGrove, its officers, directors,
+                        employees, and agents from any claims, damages, losses, or expenses arising from:
+                    </p>
+
+                    <ul>
+                        <li>Your use of the Service</li>
+                        <li>Violation of these Terms</li>
+                        <li>Violation of any third-party rights</li>
+                        <li>Your User Content</li>
+                        <li>Your negligent or wrongful conduct</li>
+                    </ul>
+
+                    <p>
+                        This indemnification obligation survives termination of these Terms and your use
+                        of the Service.
+                    </p>
+                </section>
+
+                <section id="governing-law">
+                    <h2>15. Governing Law and Dispute Resolution</h2>
+
+                    <h3>15.1 Governing Law</h3>
+                    <p>
+                        These Terms are governed by the laws of the Commonwealth of Massachusetts,
+                        without regard to conflict of law principles.
+                    </p>
+
+                    <h3>15.2 Arbitration</h3>
+                    <p>
+                        Any disputes arising from these Terms or your use of the Service shall be resolved
+                        through binding arbitration administered by the American Arbitration Association.
+                    </p>
+
+                    <h3>15.3 Class Action Waiver</h3>
+                    <p>
+                        You agree to resolve disputes on an individual basis and waive your right to
+                        participate in class actions or collective proceedings.
+                    </p>
+
+                    <h3>15.4 Exceptions</h3>
+                    <p>
+                        Either party may seek injunctive relief in court for intellectual property
+                        infringement or violations of confidentiality obligations.
+                    </p>
+
+                    <h3>15.5 Jurisdiction</h3>
+                    <p>
+                        Any court proceedings shall take place in the state and federal courts located
+                        in Massachusetts.
+                    </p>
+                </section>
+
+                <section id="changes">
+                    <h2>16. Changes to Terms</h2>
+
+                    <h3>16.1 Right to Modify</h3>
+                    <p>
+                        We reserve the right to modify these Terms at any time. Material changes will be
+                        communicated through the Service or via email.
+                    </p>
+
+                    <h3>16.2 Notification</h3>
+                    <p>We will notify you of changes through:</p>
+                    <ul>
+                        <li>In-app notifications</li>
+                        <li>Email notifications</li>
+                        <li>Website announcements</li>
+                        <li>Push notifications for significant changes</li>
+                    </ul>
+
+                    <h3>16.3 Acceptance</h3>
+                    <p>
+                        Continued use of the Service after changes become effective constitutes acceptance
+                        of the modified Terms.
+                    </p>
+
+                    <h3>16.4 Objection to Changes</h3>
+                    <p>
+                        If you do not agree to modified Terms, you may terminate your account before the
+                        changes take effect.
+                    </p>
+                </section>
+
+                <section id="contact">
+                    <h2>17. Contact Information</h2>
+
+                    <div class="contact-info">
+                        <h3>Legal Department</h3>
+                        <p><strong>Email:</strong> legal@nutrigrove.com</p>
+                        <p><strong>Phone:</strong> +1 (413) 555-0123</p>
+                        <p><strong>Address:</strong><br>
+                        NutriGrove Inc.<br>
+                        Legal Department<br>
+                        Innovation Hub<br>
+                        UMass Amherst<br>
+                        Amherst, MA 01003</p>
+
+                        <h3>Customer Support</h3>
+                        <p><strong>Email:</strong> support@nutrigrove.com</p>
+                        <p><strong>Hours:</strong> Monday-Friday, 9 AM - 6 PM EST</p>
+
+                        <h3>Business Inquiries</h3>
+                        <p><strong>Email:</strong> business@nutrigrove.com</p>
+                    </div>
+                </section>
+
+                <div style="text-align: center; margin-top: var(--space-12); padding-top: var(--space-8); border-top: 2px solid var(--color-gray-100);">
+                    <p style="color: var(--color-gray-500); font-size: var(--text-sm);">
+                        These Terms of Service were last updated on December 15, 2024.<br>
+                        <a href="../index.html" style="color: var(--color-primary);">Return to Home</a> |
+                        <a href="privacy-policy.html" style="color: var(--color-primary);">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
