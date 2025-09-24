@@ -251,6 +251,47 @@ a:hover {
     pointer-events: none;
 }
 
+/* iPhone Specific Styles */
+.phone-mockup.iphone {
+    background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+    border-radius: 50px;
+    padding: 8px;
+    border: 3px solid #333;
+}
+
+.phone-mockup.iphone .phone-screen {
+    border-radius: 42px;
+    position: relative;
+}
+
+.phone-notch {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 25px;
+    background: #000;
+    border-radius: 0 0 15px 15px;
+    z-index: 2;
+}
+
+.phone-home-indicator {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: #666;
+    border-radius: 2px;
+    z-index: 2;
+}
+
+.phone-mockup.iphone .phone-reflection {
+    border-radius: 42px;
+}
+
 /* Floating Elements */
 .floating-elements {
     position: absolute;

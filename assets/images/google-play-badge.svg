@@ -1,0 +1,40 @@
+<svg width="135" height="40" viewBox="0 0 135 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blue" x1="61.445%" x2="26.638%" y1="4.948%" y2="71.927%">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0099CC"/>
+    </linearGradient>
+    <linearGradient id="red" x1="107.685%" x2="-130.913%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#FF3A44"/>
+      <stop offset="100%" stop-color="#C31162"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="86.227%" x2="-50.253%" y1="31.018%" y2="136.557%">
+      <stop offset="0%" stop-color="#FFCD40"/>
+      <stop offset="100%" stop-color="#C31162"/>
+    </linearGradient>
+    <linearGradient id="green" x1="-18.78%" x2="42.306%" y1="-54.396%" y2="24.752%">
+      <stop offset="0%" stop-color="#32A071"/>
+      <stop offset="6.85%" stop-color="#2DA771"/>
+      <stop offset="47.62%" stop-color="#15CF74"/>
+      <stop offset="80.08%" stop-color="#06E775"/>
+      <stop offset="100%" stop-color="#00F076"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Official Google Play Badge -->
+  <rect width="135" height="40" rx="6.5" fill="#000"/>
+
+  <!-- Google Play Logo -->
+  <g transform="translate(8, 8)">
+    <path fill="url(#blue)" d="M1.843 1.579A1.785 1.785 0 001 3.116v20.768c0 .6.297 1.125.843 1.537l.015.013L13.9 13.392v-.019-.019L1.858 1.312l-.015.267z"/>
+    <path fill="url(#red)" d="M18.983 17.47l-5.069-5.078v-.038l5.069-5.078.025.013 6.005 3.414c1.715.974 1.715 2.565 0 3.539l-6.005 3.414-.025-.186z"/>
+    <path fill="url(#yellow)" d="M19.008 17.457L13.9 13.373 1.843 25.335c.563.589 1.492.666 2.067.102l15.098-7.98"/>
+    <path fill="url(#green)" d="M19.008 9.37L3.91 1.39c-.575-.564-1.504-.487-2.067.102L13.9 13.454l5.108-4.084z"/>
+  </g>
+
+  <!-- Text -->
+  <g fill="#fff">
+    <text x="44" y="12" font-family="Roboto, sans-serif" font-size="7" font-weight="400" letter-spacing="0.2em">GET IT ON</text>
+    <text x="44" y="28" font-family="Roboto, sans-serif" font-size="14" font-weight="400">Google Play</text>
+  </g>
+</svg>
