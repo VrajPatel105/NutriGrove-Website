@@ -5,7 +5,7 @@ A premium, enterprise-grade website for NutriGrove - the smart nutrition trackin
 ## 🚀 Features
 
 ### ✨ Premium Design
-- **Apple.com-level polish** with sophisticated animations and micro-interactions
+- **Apple.com-level polish** with sophisticated animations and micro-interactions 
 - **Stripe.com-level professionalism** with enterprise-grade presentation
 - **Tesla.com-level innovation** with cutting-edge visual effects
 - **Fortune 500 credibility** with institutional-quality design
